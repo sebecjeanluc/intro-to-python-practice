@@ -55,18 +55,21 @@ print(f"Your name is {len(my_name)} characters long")
 print("")
 print("Function: greet")
 
+# name = "taro"
+
 def greet(name):
 	# Return the string "Hello, Kay!" where "Kay" is the
 	# name provided
-	pass
+	return f"Hello, {name.capitalize()}!"
+	# pass
 
 check_that_these_are_equal(
-	greet("Chuang-tzu"),
+	greet("chuang-tzu"),
 	"Hello, Chuang-tzu!"
 )
 
 check_that_these_are_equal(
-	greet("Crab"),
+	greet("crab"),
 	"Hello, Crab!"
 )
 

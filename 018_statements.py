@@ -1,3 +1,4 @@
+from datetime import date, datetime
 # Video alternative: https://vimeo.com/954334376/0c486313d0#t=460
 
 # Now, let's look at statements. You've already seen a few
@@ -41,8 +42,13 @@ print("---")
 todays_day = 19
 todays_day = 20
 
-print(f"Today's day is: {todays_day}")
+today = date.today()
+now = datetime.now()
+
+day = now.day
+print(f"Today's day is: {day}")
 print("---")
+
 
 # @TASK: What will it print? Run this file and find out.
 #

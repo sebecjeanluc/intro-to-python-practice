@@ -13,5 +13,8 @@ print(f"b is {b}")
 
 # Was it what you expected?
 
+# I expected 30.
+# I see a is redefined as b which is equal to 20. right.
+
 # Try to puzzle it out, and then move on to
 # 020_state_tables.py
